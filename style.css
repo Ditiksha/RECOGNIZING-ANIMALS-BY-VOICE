@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(#7bfff6 0%, #ffa5dc 100%);
+}
+.header_div {
+    color: #9f0048;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+.header_div p {
+    font-family: 'Style Script', cursive;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main_div button {
+    font-family: 'Lobster', cursive;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
