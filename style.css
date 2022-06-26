@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(#7bfff6 0%, #ffa5dc 100%);
 }
+
 .header_div {
     color: #9f0048;
     font-family: 'Fascinate Inline', cursive;
@@ -20,4 +21,16 @@ body {
     width: 130px;
     font-weight: bolder;
     letter-spacing: 3px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: #000ba3;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: rgb(186, 237, 254);
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
