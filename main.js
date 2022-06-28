@@ -27,26 +27,16 @@ function gotResults(error, result) {
         img3 = document.getElementById('alien4');
 
 
-        if (result[0].label == "clap") {
-            img.src = 'aliens-01.gif';
-            img1.src = 'aliens-02.png';
-            img2.src = 'aliens-03.png';
-            img3.src = 'aliens-04.png';
-        } else if (result[0].label == "bell") {
-            img.src = 'aliens-01.png';
-            img1.src = 'aliens-02.gif';
-            img2.src = 'aliens-03.png';
-            img3.src = 'aliens-04.png';
-        } else if (result[0].label == "snap") {
-            img.src = 'aliens-01.png';
-            img1.src = 'aliens-02.png';
-            img2.src = 'aliens-03.gif';
-            img3.src = 'aliens-04.png';
+        if (result[0].label == "Roar") {
+            img.src = 'lion.png';
+        } else if (result[0].label == "bird's chirping") {
+            img.src = 'bird.png';
+        } else if (result[0].label == "bark") {
+            img.src = 'dog.png';
+        } else if (result[0].label == "meow") {
+            img.src = 'black-cat-png-27.png';
         } else {
-            img.src = 'aliens-01.png';
-            img1.src = 'aliens-02.png';
-            img2.src = 'aliens-03.png';
-            img3.src = 'aliens-04.gif';
+            img.src = 'listen.gif';
 
         }
     }
